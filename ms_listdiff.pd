@@ -1,0 +1,15 @@
+#N canvas 227 93 249 186 10;
+#X obj -120 92 list-map2;
+#X obj -32 92 -;
+#X obj -120 31 inlet;
+#X obj -80 31 inlet;
+#X obj -36 128 outlet;
+#X text 7 127 serialized;
+#X obj -120 126 outlet;
+#X text -77 125 list;
+#X connect 0 0 6 0;
+#X connect 0 1 1 0;
+#X connect 0 1 4 0;
+#X connect 1 0 0 2;
+#X connect 2 0 0 0;
+#X connect 3 0 0 1;
