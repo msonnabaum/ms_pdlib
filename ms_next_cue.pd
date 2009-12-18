@@ -1,0 +1,12 @@
+#N canvas 500 124 204 162 10;
+#X obj 69 120 s next_cue;
+#X obj 26 1 inlet;
+#X obj 98 1 loadbang;
+#X obj 66 38 float \$1;
+#X msg 68 84 cue \$1;
+#X floatatom 66 62 5 0 0 0 - - -;
+#X connect 1 0 3 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 4 0 0 0;
+#X connect 5 0 4 0;

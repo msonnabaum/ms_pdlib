@@ -1,0 +1,13 @@
+#N canvas 222 259 246 140 10;
+#X obj 21 4 ms_listdiff;
+#X obj 21 27 ms_listavg-abs;
+#X obj 21 52 ms_scale 200;
+#X obj 21 -25 inlet;
+#X obj 84 -25 inlet;
+#X obj 21 79 outlet;
+#X text 65 79 list correlation (float);
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 5 0;
+#X connect 3 0 0 0;
+#X connect 4 0 0 1;

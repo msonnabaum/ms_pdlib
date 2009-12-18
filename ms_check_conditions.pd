@@ -1,0 +1,19 @@
+#N canvas 275 73 369 249 10;
+#X floatatom 44 110 5 0 0 0 - - -;
+#X obj 44 84 counter;
+#X msg 80 48 0;
+#X floatatom 92 193 5 0 0 0 - - -;
+#X obj 43 193 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144 -1
+-1;
+#X text 114 163 creation argument;
+#X obj 33 30 inlet;
+#X text 31 10 bangs;
+#X obj 43 217 outlet;
+#X obj 66 162 sel \$1;
+#X connect 0 0 9 0;
+#X connect 1 0 0 0;
+#X connect 2 0 1 2;
+#X connect 4 0 8 0;
+#X connect 6 0 1 0;
+#X connect 9 0 3 0;
+#X connect 9 0 4 0;
